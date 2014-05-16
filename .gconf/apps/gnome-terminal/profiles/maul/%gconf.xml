@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="background_type" mtime="1398611062" type="string">
+		<stringvalue>transparent</stringvalue>
+	</entry>
+</gconf>

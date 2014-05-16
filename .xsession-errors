@@ -1,0 +1,1256 @@
+Xsession: X session started for root at Tue Apr 22 02:26:32 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 02:26:32: Can't open display: :1
+xscreensaver: 02:26:32: initial effective uid/gid was root/root (0/0)
+xscreensaver: 02:26:32: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 02:26:32: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+** (lxsession-logout:3278): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 2845 requests (2845 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 0 (Success) on X server :1.
+Xsession: X session started for root at Tue Apr 22 03:50:52 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 03:50:54: Can't open display: :1
+xscreensaver: 03:50:54: initial effective uid/gid was root/root (0/0)
+xscreensaver: 03:50:54: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 03:50:54: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+** (lxsession-logout:3162): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 4392 requests (4392 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 0 (Success) on X server :1.
+Xsession: X session started for root at Tue Apr 22 03:54:58 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 03:55:00: Can't open display: :1
+xscreensaver: 03:55:00: initial effective uid/gid was root/root (0/0)
+xscreensaver: 03:55:00: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 03:55:00: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+** (lxsession-logout:2977): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 2834 requests (2834 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 0 (Success) on X server :1.
+Xsession: X session started for root at Tue Apr 22 03:56:06 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 03:56:06: Can't open display: :1
+xscreensaver: 03:56:06: initial effective uid/gid was root/root (0/0)
+xscreensaver: 03:56:06: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 03:56:06: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+** (lxsession-logout:3217): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+pcmanfm: Fatal IO error 0 (Success) on X server :1.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 2880 requests (2880 known processed) with 0 events remaining.
+Xsession: X session started for root at Tue Apr 22 03:57:03 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 03:57:03: Can't open display: :1
+xscreensaver: 03:57:03: initial effective uid/gid was root/root (0/0)
+xscreensaver: 03:57:03: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 03:57:03: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+Xsession: X session started for root at Tue Apr 22 03:57:50 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 03:57:50: Can't open display: :2
+xscreensaver: 03:57:50: initial effective uid/gid was root/root (0/0)
+xscreensaver: 03:57:50: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 03:57:50: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+** (lxsession-logout:3702): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":2"
+      after 3938 requests (3938 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 0 (Success) on X server :2.
+Xsession: X session started for root at Sat Apr 26 09:43:26 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+No protocol specified
+xscreensaver: 09:43:28: Can't open display: :2
+xscreensaver: 09:43:28: initial effective uid/gid was root/root (0/0)
+xscreensaver: 09:43:28: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 09:43:28: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+(nm-applet:3213): libnotify-WARNING **: Failed to connect to proxy
+
+** (nm-applet:3213): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3213): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (lxsession-logout:3375): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+Xsession: X session started for root at Sat Apr 26 09:51:43 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 09:51:44: Can't open display: :1
+xscreensaver: 09:51:44: initial effective uid/gid was root/root (0/0)
+xscreensaver: 09:51:44: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 09:51:44: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+(x-www-browser:3089): Gtk-WARNING **: Attempting to store changes into `/root/.local/share/recently-used.xbel', but failed: Failed to create file '/root/.local/share/recently-used.xbel.B7PVEX': No such file or directory
+
+(x-www-browser:3089): Gtk-WARNING **: Attempting to set the permissions of `/root/.local/share/recently-used.xbel', but failed: No such file or directory
+
+(x-www-browser:3089): Gtk-WARNING **: Attempting to store changes into `/root/.local/share/recently-used.xbel', but failed: Failed to create file '/root/.local/share/recently-used.xbel.ZXRVEX': No such file or directory
+
+(x-www-browser:3089): Gtk-WARNING **: Attempting to set the permissions of `/root/.local/share/recently-used.xbel', but failed: No such file or directory
+
+(x-www-browser:3089): libnotify-WARNING **: Failed to connect to proxy
+
+(x-www-browser:3089): Gtk-WARNING **: Attempting to store changes into `/root/.local/share/recently-used.xbel', but failed: Failed to create file '/root/.local/share/recently-used.xbel.DKCJEX': No such file or directory
+
+(x-www-browser:3089): Gtk-WARNING **: Attempting to set the permissions of `/root/.local/share/recently-used.xbel', but failed: No such file or directory
+
+(x-www-browser:3089): Gtk-WARNING **: Attempting to store changes into `/root/.local/share/recently-used.xbel', but failed: Failed to create file '/root/.local/share/recently-used.xbel.RDEJEX': No such file or directory
+
+(x-www-browser:3089): Gtk-WARNING **: Attempting to set the permissions of `/root/.local/share/recently-used.xbel', but failed: No such file or directory
+
+(pcmanfm:3050): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:3050): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(x-www-browser:3089): GLib-GIO-WARNING **: Missing callback called fullpath = /root/.local/share/recently-used.xbel
+
+
+(pcmanfm:3050): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:3050): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+** (lxmusic:5036): WARNING **: on_playback_volume_changed: couldn't get volume, output plugin not loaded
+
+(pcmanfm:3050): Gtk-CRITICAL **: IA__gtk_widget_is_toplevel: assertion `GTK_IS_WIDGET (widget)' failed
+
+(pcmanfm:3050): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+** (lxmusic:5156): WARNING **: on_playback_volume_changed: couldn't get volume, output plugin not loaded
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+
+** (lxmusic:5168): WARNING **: on_playback_volume_changed: couldn't get volume, output plugin not loaded
+
+** (lxmusic:5173): WARNING **: on_playback_volume_changed: couldn't get volume, output plugin not loaded
+
+** (lxmusic:5156): WARNING **: Server Quit
+
+** (lxmusic:5168): WARNING **: Server Quit
+
+** (lxmusic:5173): WARNING **: Server Quit
+
+** (lxmusic:5036): WARNING **: Server Quit
+
+(lxmusic:5036): Gtk-CRITICAL **: IA__gtk_widget_destroy: assertion `GTK_IS_WIDGET (widget)' failed
+
+** (lxmusic:5205): WARNING **: on_playback_volume_changed: couldn't get volume, output plugin not loaded
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+Failed in file ../src/lib/xmmstypes/value.c on  row 1861
+
+(pcmanfm:3050): Gtk-CRITICAL **: _gtk_container_queue_resize: assertion `GTK_IS_CONTAINER (container)' failed
+
+(pcmanfm:3050): GLib-GObject-CRITICAL **: g_object_get_qdata: assertion `G_IS_OBJECT (object)' failed
+
+(pcmanfm:3050): Gtk-CRITICAL **: IA__gtk_widget_is_toplevel: assertion `GTK_IS_WIDGET (widget)' failed
+
+(pcmanfm:3050): Gtk-CRITICAL **: _gtk_container_queue_resize: assertion `GTK_IS_CONTAINER (container)' failed
+
+(pcmanfm:3050): GLib-GObject-CRITICAL **: g_object_get_qdata: assertion `G_IS_OBJECT (object)' failed
+
+(pcmanfm:3050): Gtk-CRITICAL **: IA__gtk_widget_is_toplevel: assertion `GTK_IS_WIDGET (widget)' failed
+
+** (lxsession-logout:5242): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+
+** (lxsession-logout:5253): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+
+(pcmanfm:3050): GLib-GObject-WARNING **: instance of invalid non-instantiatable type `(null)'
+
+(pcmanfm:3050): GLib-GObject-CRITICAL **: g_signal_emit_valist: assertion `G_TYPE_CHECK_INSTANCE (instance)' failed
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 180186 requests (180186 known processed) with 0 events remaining.
+Xsession: X session started for root at Sat Apr 26 10:55:59 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 10:56:00: Can't open display: :1
+xscreensaver: 10:56:00: initial effective uid/gid was root/root (0/0)
+xscreensaver: 10:56:00: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 10:56:00: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+** (lxsession-logout:5507): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 4147 requests (4147 known processed) with 0 events remaining.
+Xsession: X session started for root at Sat Apr 26 10:59:56 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 10:59:57: Can't open display: :1
+xscreensaver: 10:59:57: initial effective uid/gid was root/root (0/0)
+xscreensaver: 10:59:57: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 10:59:57: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+** (lxsession-logout:3353): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 8277 requests (8277 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 0 (Success) on X server :1.
+Xsession: X session started for root at Sat Apr 26 11:02:10 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 11:02:10: Can't open display: :1
+xscreensaver: 11:02:10: initial effective uid/gid was root/root (0/0)
+xscreensaver: 11:02:10: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 11:02:10: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 4008 requests (4008 known processed) with 0 events remaining.
+Xsession: X session started for root at Sat Apr 26 11:39:52 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 11:39:52: Can't open display: :1
+xscreensaver: 11:39:52: initial effective uid/gid was root/root (0/0)
+xscreensaver: 11:39:52: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 11:39:52: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+(pcmanfm:3502): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+** (lxsession-logout:3573): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 6329 requests (6329 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 0 (Success) on X server :1.
+Xsession: X session started for root at Sat Apr 26 11:44:10 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 11:44:12: Can't open display: :1
+xscreensaver: 11:44:12: initial effective uid/gid was root/root (0/0)
+xscreensaver: 11:44:12: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 11:44:12: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+** (lxsession-logout:3081): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 8358 requests (8358 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 0 (Success) on X server :1.
+Xsession: X session started for root at Sat Apr 26 11:47:04 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 11:47:04: Can't open display: :1
+xscreensaver: 11:47:04: initial effective uid/gid was root/root (0/0)
+xscreensaver: 11:47:04: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 11:47:04: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+(nm-applet:3273): libnotify-WARNING **: Failed to connect to proxy
+
+** (nm-applet:3273): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3273): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3273): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3273): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+(pcmanfm:3268): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(x-www-browser:3302): libnotify-WARNING **: Failed to connect to proxy
+Usage:
+  lxterminal [Options...] - LXTerminal is a terminal emulator
+
+Options:
+  -e, --command=STRING             Execute the argument to this option inside the terminal
+  --geometry=COLUMNSxROWS          Set the terminal's size
+  -l, --loginshell                 Execute login shell
+  -t, -T, --title=STRING           Set the terminal's title
+  --working-directory=DIRECTORY    Set the terminal's working directory
+
+
+** (lxsession-logout:3689): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+openbox: ../../src/xcb_io.c:529: _XAllocID: Assertion `ret != inval_id' failed.
+Xsession: X session started for root at Sun Apr 27 07:24:24 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 07:24:26: Can't open display: :1
+xscreensaver: 07:24:26: initial effective uid/gid was root/root (0/0)
+xscreensaver: 07:24:26: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 07:24:26: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+(pcmanfm:2931): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:2931): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(lxterminal:3314): Gtk-WARNING **: Unknown property: GtkTable.valign
+
+(lxterminal:3314): Gtk-WARNING **: Unknown property: GtkTable.valign
+
+(lxterminal:3314): Gtk-WARNING **: Unknown property: GtkTable.valign
+
+(lxterminal:3314): Gtk-WARNING **: Unknown property: GtkTable.valign
+
+(lxterminal:3314): Gtk-WARNING **: Unknown property: GtkTable.valign
+
+(lxterminal:3314): Gtk-WARNING **: Unknown property: GtkTable.valign
+
+(pcmanfm:2931): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(lxappearance:3359): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+
+(lxappearance:3359): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+
+(lxappearance:3359): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+
+(lxappearance:3359): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+
+(lxappearance:3359): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+
+(lxappearance:3359): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+
+(lxappearance:3359): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+
+(lxappearance:3359): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+
+(pcmanfm:2931): Gtk-CRITICAL **: IA__gtk_widget_is_toplevel: assertion `GTK_IS_WIDGET (widget)' failed
+
+(pcmanfm:2931): Gtk-CRITICAL **: IA__gtk_widget_is_toplevel: assertion `GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2934): libnotify-WARNING **: Failed to connect to proxy
+
+** (nm-applet:2934): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:2934): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (lxsession-logout:3883): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 91602 requests (91602 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 0 (Success) on X server :1.
+Xsession: X session started for root at Sun Apr 27 09:05:49 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 09:05:50: Can't open display: :1
+xscreensaver: 09:05:50: initial effective uid/gid was root/root (0/0)
+xscreensaver: 09:05:50: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 09:05:50: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+(nm-applet:3986): libnotify-WARNING **: Failed to connect to proxy
+
+** (nm-applet:3986): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3986): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+(pcmanfm:3981): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+** (nm-applet:3986): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3986): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3986): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3986): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3986): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3986): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3986): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3986): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+Xsession: X session started for root at Sun Apr 27 21:10:40 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 21:10:42: Can't open display: :1
+xscreensaver: 21:10:42: initial effective uid/gid was root/root (0/0)
+xscreensaver: 21:10:42: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 21:10:42: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+Xsession: X session started for root at Sun Apr 27 21:15:02 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 21:15:04: Can't open display: :1
+xscreensaver: 21:15:04: initial effective uid/gid was root/root (0/0)
+xscreensaver: 21:15:04: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 21:15:04: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+** (lxsession-logout:3029): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 18145 requests (18145 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+Xsession: X session started for root at Sun Apr 27 21:53:08 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 21:53:10: Can't open display: :1
+xscreensaver: 21:53:10: initial effective uid/gid was root/root (0/0)
+xscreensaver: 21:53:10: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 21:53:10: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+(x-www-browser:3105): libnotify-WARNING **: Failed to connect to proxy
+
+(pcmanfm:3028): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:3028): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(x-terminal-emulator:3390): Gtk-WARNING **: Unknown property: GtkTable.valign
+
+(x-terminal-emulator:3390): Gtk-WARNING **: Unknown property: GtkTable.valign
+
+(x-terminal-emulator:3390): Gtk-WARNING **: Unknown property: GtkTable.valign
+
+(nm-applet:3032): libnotify-WARNING **: Failed to connect to proxy
+
+** (nm-applet:3032): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3032): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+(pcmanfm:3028): GLib-GObject-WARNING **: instance of invalid non-instantiatable type `(null)'
+
+(pcmanfm:3028): GLib-GObject-CRITICAL **: g_signal_emit_valist: assertion `G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(pcmanfm:3028): Gtk-CRITICAL **: IA__gtk_widget_is_toplevel: assertion `GTK_IS_WIDGET (widget)' failed
+
+** (nm-applet:3032): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3032): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3032): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3032): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+(pcmanfm:3028): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:5125): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+** (nm-applet:3032): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3032): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3032): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3032): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+** (lxsession-logout:5390): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 407181 requests (407181 known processed) with 0 events remaining.
+Xsession: X session started for root at Sat May  3 22:52:51 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 22:52:53: Can't open display: :1
+xscreensaver: 22:52:53: initial effective uid/gid was root/root (0/0)
+xscreensaver: 22:52:53: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 22:52:53: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+(x-www-browser:2956): libnotify-WARNING **: Failed to connect to proxy
+
+(pcmanfm:2917): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(nm-applet:2920): libnotify-WARNING **: Failed to connect to proxy
+
+** (nm-applet:2920): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:2920): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:2920): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:2920): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:2920): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:2920): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (lxsession-logout:4184): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 114415 requests (114415 known processed) with 0 events remaining.
+pcmanfm: ../../src/xcb_io.c:529: _XAllocID: Assertion `ret != inval_id' failed.
+Xsession: X session started for root at Sun May  4 00:48:38 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 00:48:39: Can't open display: :1
+xscreensaver: 00:48:39: initial effective uid/gid was root/root (0/0)
+xscreensaver: 00:48:39: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 00:48:39: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+** (lxsession-logout:4450): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 4185 requests (4185 known processed) with 0 events remaining.
+Xsession: X session started for root at Sun May  4 00:50:42 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 00:50:45: Can't open display: :1
+xscreensaver: 00:50:45: initial effective uid/gid was root/root (0/0)
+xscreensaver: 00:50:45: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 00:50:45: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+** (lxsession-logout:2972): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 4808 requests (4808 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 0 (Success) on X server :1.
+Xsession: X session started for root at Sun May  4 00:53:41 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 00:53:42: Can't open display: :1
+xscreensaver: 00:53:42: initial effective uid/gid was root/root (0/0)
+xscreensaver: 00:53:42: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 00:53:42: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+** (lxsession-logout:3559): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 6465 requests (6465 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 0 (Success) on X server :1.
+Xsession: X session started for root at Sun May  4 00:57:28 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 00:57:29: Can't open display: :1
+xscreensaver: 00:57:29: initial effective uid/gid was root/root (0/0)
+xscreensaver: 00:57:29: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 00:57:29: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+** (lxsession-logout:3844): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 4836 requests (4836 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 0 (Success) on X server :1.
+Xsession: X session started for root at Sun May  4 01:01:26 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 01:01:26: Can't open display: :1
+xscreensaver: 01:01:26: initial effective uid/gid was root/root (0/0)
+xscreensaver: 01:01:26: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 01:01:26: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+(nm-applet:4316): libnotify-WARNING **: Failed to connect to proxy
+
+** (nm-applet:4316): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:4316): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (lxsession-logout:4496): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+pcmanfm: Fatal IO error 4 (Interrupted system call) on X server :1.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 8219 requests (8219 known processed) with 0 events remaining.
+Xsession: X session started for root at Sun May  4 07:20:38 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 07:20:40: Can't open display: :1
+xscreensaver: 07:20:40: initial effective uid/gid was root/root (0/0)
+xscreensaver: 07:20:40: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 07:20:40: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root,Xsession: X session started for root at Sun May  4 07:28:36 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 07:28:38: Can't open display: :1
+xscreensaver: 07:28:38: initial effective uid/gid was root/root (0/0)
+xscreensaver: 07:28:38: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 07:28:38: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+Xsession: X session started for root at Sun May  4 08:09:04 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 08:09:06: Can't open display: :1
+xscreensaver: 08:09:06: initial effective uid/gid was root/root (0/0)
+xscreensaver: 08:09:06: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 08:09:06: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+Xsession: X session started for root at Sun May  4 08:14:16 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 08:14:16: Can't open display: :2
+xscreensaver: 08:14:16: initial effective uid/gid was root/root (0/0)
+xscreensaver: 08:14:16: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 08:14:16: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+(x-www-browser:3976): libnotify-WARNING **: Failed to connect to proxy
+
+(nm-applet:3498): libnotify-WARNING **: Failed to connect to proxy
+
+(nm-applet:3945): libnotify-WARNING **: Failed to connect to proxy
+
+** (nm-applet:3498): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3945): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3498): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3945): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (lxsession-logout:5783): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+openbox: ../../src/xcb_io.c:529: _XAllocID: Assertion `ret != inval_id' failed.
+pcmanfm: Fatal IO error 0 (Success) on X server :2.
+Xsession: X session started for root at Sun May  4 10:22:37 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 10:22:38: Can't open display: :2
+xscreensaver: 10:22:38: initial effective uid/gid was root/root (0/0)
+xscreensaver: 10:22:38: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 10:22:38: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+** (lxsession-logout:6048): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":2"
+      after 5506 requests (5506 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 0 (Success) on X server :2.
+Xsession: X session started for root at Sun May  4 10:25:26 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 10:25:26: Can't open display: :2
+xscreensaver: 10:25:26: initial effective uid/gid was root/root (0/0)
+xscreensaver: 10:25:26: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 10:25:26: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+(nm-applet:6260): libnotify-WARNING **: Failed to connect to proxy
+
+** (nm-applet:6260): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3498): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3498): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:6260): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:6260): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3498): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3498): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:6260): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (lxsession-logout:6466): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 3794 requests (3794 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":2"
+      after 12414 requests (12414 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.
+Xsession: X session started for root at Sun May  4 21:01:28 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 21:01:30: Can't open display: :1
+xscreensaver: 21:01:30: initial effective uid/gid was root/root (0/0)
+xscreensaver: 21:01:30: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 21:01:30: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+(x-www-browser:3005): libnotify-WARNING **: Failed to connect to proxy
+
+(nm-applet:2950): libnotify-WARNING **: Failed to connect to proxy
+
+** (nm-applet:2950): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:2950): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (lxsession-logout:3924): WARNING **: dbus-interface.c:94: DBUS: The name org.freedesktop.Hal was not provided by any .service files
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1"
+      after 103551 requests (103423 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+Xsession: X session started for root at Sun May  4 22:51:37 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 22:51:39: Can't open display: :1
+xscreensaver: 22:51:39: initial effective uid/gid was root/root (0/0)
+xscreensaver: 22:51:39: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 22:51:39: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+(nm-applet:2981): libnotify-WARNING **: Failed to connect to proxy
+
+** (nm-applet:2981): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:2981): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+Xsession: X session started for root at Thu May 15 19:23:54 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 19:23:55: Can't open display: :1
+xscreensaver: 19:23:55: initial effective uid/gid was root/root (0/0)
+xscreensaver: 19:23:55: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 19:23:55: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+(x-www-browser:3031): libnotify-WARNING **: Failed to connect to proxy
+nsBuiltinDecoderStateMachine::RunStateMachine queuing nsBuiltinDecoder::PlaybackEnded
+
+(pcmanfm:2992): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(nm-applet:2996): libnotify-WARNING **: Failed to connect to proxy
+
+** (nm-applet:2996): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+Xsession: X session started for root at Thu May 15 21:13:40 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+No protocol specified
+xscreensaver: 21:13:43: Can't open display: :1
+xscreensaver: 21:13:43: initial effective uid/gid was root/root (0/0)
+xscreensaver: 21:13:43: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 21:13:43: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area
+
+(pcmanfm:3138): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(nm-applet:3141): libnotify-WARNING **: Failed to connect to proxy
+
+** (nm-applet:3141): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+** (nm-applet:3141): WARNING **: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+openbox: ../../src/xcb_io.c:529: _XAllocID: Assertion `ret != inval_id' failed.
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+Xsession: X session started for root at Thu May 15 23:01:04 PDT 2014
+localuser:root being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+No protocol specified
+xscreensaver: 23:01:06: Can't open display: :1
+xscreensaver: 23:01:06: initial effective uid/gid was root/root (0/0)
+xscreensaver: 23:01:06: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 23:01:06: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              http://www.jwz.org/xscreensaver/faq.html
+              http://www.jwz.org/xscreensaver/man.html
+
+** Message: applet now removed from the notification area
+** Message: applet now embedded in the notification area

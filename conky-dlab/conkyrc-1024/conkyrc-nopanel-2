@@ -1,0 +1,42 @@
+background		no
+update_interval		1.0
+double_buffer		yes
+
+use_xft			no
+xftfont			Monospace:size=10
+xftalpha		0.8
+
+own_window		yes
+own_window_transparent	yes
+own_window_type		override
+own_window_hints	undecorated,below,sticky,skip_taskbar,skip_pager
+#on_bottom		yes
+
+minimum_size		300 50
+draw_shades		no
+draw_outline		yes
+draw_borders		yes
+draw_graph_borders	no
+stippled_borders	0
+border_margin		3
+border_width		0
+
+default_color		white
+default_shade_color	black
+default_outline_color	black
+
+alignment		bottom_left
+gap_x			667
+#gap_y			34
+gap_y			10
+
+no_buffers		yes
+
+TEXT
+Networking${alignr}${color #707070}(${color white}speed down${color #707070}/${color white}up${color #707070})${color white} ${color #707070}[${color white}total down${color #707070}/${color white}up${color #707070}]
+${hr}
+${color #F09000}eth0${color #707070}:${color white} ${addr eth0}${alignr}${color #707070}(${color white}${downspeed eth0}k${color #707070}/${color white}${upspeed eth0}k${color #707070})${color white} ${color #707070}[${color white}${totaldown eth0}${color #707070}/${color white}${totalup eth0}${color #707070}]
+${color #F09000}eth1${color #707070}:${color white} ${addr eth1}${alignr}${color #707070}(${color white}${downspeed eth1}k${color #707070}/${color white}${upspeed eth1}k${color #707070})${color white} ${color #707070}[${color white}${totaldown eth1}${color #707070}/${color white}${totalup eth1}${color #707070}]
+${color #F09000}eth2${color #707070}:${color white} ${addr eth2}${alignr}${color #707070}(${color white}${downspeed eth2}k${color #707070}/${color white}${upspeed eth2}k${color #707070})${color white} ${color #707070}[${color white}${totaldown eth2}${color #707070}/${color white}${totalup eth2}${color #707070}]
+${color #F09000}ham0${color #707070}:${color white} ${addr ham0}${alignr}${color #707070}(${color white}${downspeed ham0}k${color #707070}/${color white}${upspeed ham0}k${color #707070})${color white} ${color #707070}[${color white}${totaldown ham0}${color #707070}/${color white}${totalup ham0}${color #707070}]
+

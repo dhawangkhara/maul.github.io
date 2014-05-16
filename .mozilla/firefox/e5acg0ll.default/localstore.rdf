@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="chrome://mozapps/content/downloads/unknownContentType.xul#unknownContentType"
+                   screenX="270"
+                   screenY="195" />
+  <RDF:Description RDF:about="chrome://browser/content/preferences/preferences.xul">
+    <NC:persist RDF:resource="chrome://browser/content/preferences/preferences.xul#BrowserPreferences"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="place:beginTime=1398582000000000&amp;endTime=1399273200000000&amp;sort=1"
+                   NC:open="true" />
+  <RDF:Description RDF:about="chrome://browser/content/preferences/connection.xul#ConnectionsDialog"
+                   screenX="57"
+                   screenY="20" />
+  <RDF:Description RDF:about="chrome://mozapps/content/downloads/unknownContentType.xul">
+    <NC:persist RDF:resource="chrome://mozapps/content/downloads/unknownContentType.xul#unknownContentType"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="place:beginTime=1398495600000000&amp;endTime=1398582000000000&amp;sort=1"
+                   NC:open="true" />
+  <RDF:Description RDF:about="chrome://mozapps/content/downloads/downloads.xul#downloadManager"
+                   height="300"
+                   sizemode="normal"
+                   width="590"
+                   screenX="215"
+                   screenY="208" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-box"
+                   width="186"
+                   src="chrome://browser/content/history/history-panel.xul" />
+  <RDF:Description RDF:about="place:beginTime=1399186800000000&amp;endTime=1399273200000000&amp;sort=1"
+                   NC:open="true" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#main-window"
+                   height="628"
+                   width="760"
+                   screenX="159"
+                   screenY="32"
+                   sizemode="maximized" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul">
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#main-window"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-box"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-title"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/preferences/preferences.xul#BrowserPreferences"
+                   screenX="208"
+                   lastSelected="paneAdvanced"
+                   screenY="85" />
+  <RDF:Description RDF:about="place:beginTime=1399100400000000&amp;endTime=1399186800000000&amp;sort=1"
+                   NC:open="true" />
+  <RDF:Description RDF:about="chrome://browser/content/preferences/connection.xul">
+    <NC:persist RDF:resource="chrome://browser/content/preferences/connection.xul#ConnectionsDialog"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="place:beginTime=1398582000000000&amp;endTime=1398668400000000&amp;sort=1"
+                   NC:open="true" />
+  <RDF:Description RDF:about="chrome://mozapps/content/downloads/downloads.xul">
+    <NC:persist RDF:resource="chrome://mozapps/content/downloads/downloads.xul#downloadManager"/>
+  </RDF:Description>
+</RDF:RDF>

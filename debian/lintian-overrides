@@ -1,0 +1,4 @@
+# This script is considered a configuration file, so tell lintian to not
+# complain:
+ranger: script-not-executable usr/share/pyshared/ranger/data/scope.sh
+ranger: script-not-executable usr/share/pyshared/ranger/data/ranger

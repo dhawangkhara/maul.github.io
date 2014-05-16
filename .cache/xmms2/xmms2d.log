@@ -1,0 +1,38 @@
+
+--- Starting new xmms2d ---
+***************************************
+Warning! You are running XMMS2D as root, this is a bad idea!
+But I'll allow it since you asked nicely.
+***************************************
+
+ INFO: ../src/xmms/log.c:49: Initialized logging system :)
+ INFO: ../src/xmms/config.c:774: No configfile specified, using default values.
+10:31:50  INFO: ../src/xmms/ipc.c:817: IPC listening on 'unix:///tmp/xmms-ipc-root'.
+10:31:50  FAIL: xmms_mediainfo_reader_wakeup: assertion `mr' failed
+10:31:50  INFO: ../src/xmms/main.c:561: Using output plugin: alsa
+10:31:50 ERROR: ../src/xmms/main.c:565: Baaaaad output plugin, try to change theoutput.plugin config variable to something useful
+10:31:50 ERROR: ../src/xmms/output.c:966: initalized output without a plugin, please fix!
+10:31:50  INFO: ../src/xmms/main.c:361: Installing scripts from /usr/share/xmms2/scripts/startup.d
+10:31:50 ERROR: ../src/xmms/main.c:364: Global script directory not found
+10:31:50 ERROR: ../src/xmms/xform.c:1341: Couldn't set up chain for 'file:///usr/share/xmms2/silence-cellule_snippet.ogg' (1)
+10:46:22 ERROR: ../src/xmms/xform.c:1341: Couldn't set up chain for 'file:///root/Guren+no+Yumiya.mp3' (1)
+10:46:43 ERROR: ../src/xmms/xform.c:1341: Couldn't set up chain for 'file:///root/Guren+no+Yumiya.mp3' (1)
+10:48:00  INFO: ../src/xmms/main.c:361: Installing scripts from /usr/share/xmms2/scripts/shutdown.d
+10:48:00 ERROR: ../src/xmms/main.c:364: Global script directory not found
+10:48:01  INFO: ../src/xmms/log.c:55: Logging says bye bye :)
+
+--- Starting new xmms2d ---
+***************************************
+Warning! You are running XMMS2D as root, this is a bad idea!
+But I'll allow it since you asked nicely.
+***************************************
+
+ INFO: ../src/xmms/log.c:49: Initialized logging system :)
+10:49:50  INFO: ../src/xmms/ipc.c:817: IPC listening on 'unix:///tmp/xmms-ipc-root'.
+10:49:50  INFO: ../src/xmms/main.c:561: Using output plugin: alsa
+10:49:50 ERROR: ../src/xmms/main.c:565: Baaaaad output plugin, try to change theoutput.plugin config variable to something useful
+10:49:50 ERROR: ../src/xmms/output.c:966: initalized output without a plugin, please fix!
+10:50:29 ERROR: ../src/xmms/xform.c:1341: Couldn't set up chain for 'file:///root/Guren+no+Yumiya.mp3' (1)
+10:50:48 ERROR: ../src/xmms/xform.c:1341: Couldn't set up chain for 'file:///root/Guren+no+Yumiya.mp3' (1)
+10:56:37  INFO: ../src/xmms/compat/signal_unix.c:61: Bye!
+10:56:39  INFO: ../src/xmms/log.c:55: Logging says bye bye :)

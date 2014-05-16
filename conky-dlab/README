@@ -1,0 +1,32 @@
+Contents:
+
+conkyrc-1600:
+	conkyrcs with gap_x adjusted for a 1600x* screen
+
+conkyrc-1024:
+	conkyrcs with gap_x adjusted for a 1024x* screen
+
+conkyrc-*/conkyrc-panel-?:
+	conkyrcs with gap_y adjusted for a 24 pixel panel at
+	bottom of screen
+
+conkyrc-*/conkyrc-nopanel-?:
+	conkyrcs with gap_y set to 10 (slightly above bottom
+	of screen)
+
+bat.pl:
+	Linux ACPI battery calculator thing
+
+Things that you'll probably have to change:
+
+conkyrc-*/conkyrc-*-0:
+	Line 41: ${execibar 15 xxx} path to bat.pl script
+
+conkyrc-*/conkyrc-*-1:
+	Line 36: node/domain name
+	Line 38: ${execi 15 xxx} path to bat.pl script
+
+conkyrc-*/conkyrc-*-2:
+	Lines 38-41: pretty much all network stuff is specific to
+	my laptop, change as needed.
+

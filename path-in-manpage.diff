@@ -1,0 +1,16 @@
+Subject: The installation location is not compliant with Debian policy
+Author: Vern Sun <s5unty@gmail.com>
+Last-Update: 2011-11-18
+Forwarded: no
+
+--- a/doc/ranger.1
++++ b/doc/ranger.1
+@@ -147,7 +147,7 @@
+ This manual mainly contains information on the usage of ranger.  Refer to the
+ \&\fI\s-1README\s0\fR for install instructions and to \fIdoc/HACKING\fR for development
+ specific information.  For configuration, see the files in \fIranger/defaults\fR.
+-They are usually installed to \fI/usr/lib/python*/site\-packages/ranger/defaults\fR
++They are usually installed to \fI/usr/lib/python*/dist\-packages/ranger/defaults\fR
+ and can be obtained with ranger's \-\-copy\-config option.
+ .PP
+ Inside ranger, you can press \fI1?\fR for a list of key bindings, \fI2?\fR for a list
